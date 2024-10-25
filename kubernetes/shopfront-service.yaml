@@ -20,7 +20,7 @@ kind: Deployment
 metadata:
   name: shopfront
 spec:
-  selector:
+    selector:
     matchLabels:
       app: shopfront
   replicas: 1
